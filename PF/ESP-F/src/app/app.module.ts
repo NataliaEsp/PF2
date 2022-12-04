@@ -8,13 +8,17 @@ import { SocialComponent } from './components/social/social.component';
 import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
 import { BannerComponent } from './components/banner/banner.component';
 
+import { AboutMeComponent } from './components/about-me/about-me.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SocialComponent,
     LogoAPComponent,
-    BannerComponent
+    BannerComponent,
+    
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
